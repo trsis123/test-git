@@ -1,0 +1,3 @@
+git commit -am "comentario" # estos sirve para pasar un archivo al commit sin poner el git add
+git reset --hard HEAD~1  # sirve para regresarnos a un commit anterior 
+git log --oneline # muestra el historial de commits
