@@ -2,3 +2,5 @@ git commit -am "comentario" # estos sirve para pasar todos los archivo al commit
 git reset --hard HEAD~1  # sirve para regresarnos a un commit anterior 
 git log --oneline # muestra el historial de commits
 git commit -m "cometario" archivo.suterminacion  # pasa solo un archivo al commit 
+git reset --hard (el numero de commit )  # tambien regresa a un commit anterior 
+git diff (numero de commit )(otro commit) # me muestra los cambios realizados entre estos commmit
