@@ -18,6 +18,6 @@ git merge (la rama a combinar) #nos permite juntar los cambios de dos ramas es n
 git stash # guarda los cambios realizados en una rama en una memoria temporal para poder cambiar de rama sin necesidad de perder los datos antes de pasarlos a commit 
 git stash show  # muestra los stash realizados 
 git stash pop  # sube los cambios guardados en el stash a la rama que tenemos activa 
-
+git stash clear # limpia el stash
 
 
