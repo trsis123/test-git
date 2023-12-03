@@ -10,4 +10,5 @@ git checkout (nombre de la rama) #nos movemos de rama
 git branch # podemos ver la rama en donde estamos 
 git branch (nombre de la nueva rama ) (el commit donde queremos)
 git log --grep=(comentarioque buscamos) " nos ayuda a buscar commit por comentarios que pusimos "
+git log -S '(la palabra del cambio que se halla realizazado en un arcchivo )'  #nos permite buscar un commit por n cambio que se halla hecho de un archivo 
 
