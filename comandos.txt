@@ -13,5 +13,7 @@ git log --grep=(comentarioque buscamos) " nos ayuda a buscar commit por comentar
 git log -S '(la palabra del cambio que se halla realizazado en un arcchivo )'  #nos permite buscar un commit por n cambio que se halla hecho de un archivo 
 git branch (nombre de la nueva rama) # crear una nueva rama
 git checkout (rama) #moverse entre ramas 
-git branch -D (nombre de la rama) #eliminar una rama 
+git branch -D (nombre de la rama) #eliminar una rama
+git merge (la rama a combinar) #nos permite juntar los cambios de dos ramas es necesario hacerlo desde la rama ala cul queremos se le pasen los cambios 
+ 
 
