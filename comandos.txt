@@ -15,5 +15,9 @@ git branch (nombre de la nueva rama) # crear una nueva rama
 git checkout (rama) #moverse entre ramas 
 git branch -D (nombre de la rama) #eliminar una rama
 git merge (la rama a combinar) #nos permite juntar los cambios de dos ramas es necesario hacerlo desde la rama ala cul queremos se le pasen los cambios 
- 
+git stash # guarda los cambios realizados en una rama en una memoria temporal para poder cambiar de rama sin necesidad de perder los datos antes de pasarlos a commit 
+git stash show  # muestra los stash realizados 
+git stash pop  # sube los cambios guardados en el stash a la rama que tenemos activa 
+
+
 
