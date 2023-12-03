@@ -19,5 +19,7 @@ git stash # guarda los cambios realizados en una rama en una memoria temporal pa
 git stash show  # muestra los stash realizados 
 git stash pop  # sube los cambios guardados en el stash a la rama que tenemos activa 
 git stash clear # limpia el stash
+git cherry-pick (el numero de commit) #me trae un commit especifico de otra rama sin tener que mezclar todo con un merge 
+
 
 
